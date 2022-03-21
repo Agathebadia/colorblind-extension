@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div id="Colorblind-Picker">
+    <div class="headline">
+      <img src="public/assets/images/48.png" alt="Eye circled with blue background.This is the icon of the extension.">
+      <h3>Colorblind emulator</h3>
+    </div>
+    <form>
+      <div id="option-normal" class="option">
+        <input id="radio-0" class="radio-custom" name="radio-group" type="radio" checked />
+        <label for="radio-0" class="radio-custom-label">Trichromacy / Normal</label>
+      </div>
+      <div class="option" id="option-protanopia">
+        <input id="radio-1" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-1" class="radio-custom-label">Protanopia / Red-Green</label>
+      </div>
+      <div class="option" id="option-protanomaly">
+        <input id="radio-2" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-2" class="radio-custom-label">Protanomaly / Red-Green</label>
+      </div>
+      <div class="option" id="option-deuteranopia">
+        <input id="radio-3" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-3" class="radio-custom-label">Deuteranopia / Green-Red</label>
+      </div>
+      <div class="option" id="option-deuteranomaly">
+        <input id="radio-4" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-4" class="radio-custom-label">Deuteranomaly / Green-Red</label>
+      </div>
+      <div class="option" id="option-tritanopia">
+        <input id="radio-5" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-5" class="radio-custom-label">Tritanopia / Blue-Yellow</label>
+      </div>
+      <div class="option" id="option-tritanomaly">
+        <input id="radio-6" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-6" class="radio-custom-label">Tritanomaly / Blue-Yellow</label>
+      </div>
+      <div class="option" id="option-achromatopsia">
+        <input id="radio-7" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-7" class="radio-custom-label">Achromatopsia / without color</label>
+      </div>
+      <div class="option" id="option-achromatomaly">
+        <input id="radio-8" class="radio-custom" name="radio-group" type="radio" />
+        <label for="radio-8" class="radio-custom-label">Achromatomaly / Faded colors</label>
+        </button>
+      </div>
+    </form>
+  </div>
+  <script src="colorblindListener.js"></script>
+</body>
+
+</html>

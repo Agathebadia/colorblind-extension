@@ -1,0 +1,23 @@
+{
+  "name": "Colorblindness Emulator",
+  "description": "Emulate 8 types of colorblindness on your browser!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Colorblindness emulator",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "public/assets/images/16.png",
+    "48": "public/assets/images/48.png",
+    "128": "public/assets/images/128.png"
+  }
+}
