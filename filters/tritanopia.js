@@ -16,3 +16,4 @@ stylingID.innerHTML = 'html{-webkit-filter:url(#protanomaly);-moz-filter:(#prota
 setTimeout(function() {
     window.scrollBy(1, 1);
     window.scrollBy(-1, -1);
+}, 1);

@@ -1,0 +1,64 @@
+body {
+  font-size: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(53, 52, 52);
+  width: 300px;
+  height: 100%;
+  background-color: white;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+form {
+  padding: 0 5px 5px 5px;
+}
+
+.headline {
+  padding: 15px 10px 0 10px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 52, 52);
+  color: white;
+}
+
+.info-link {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+
+img.icon {
+  width: 48px;
+  height: 48px;
+  padding-right: 0.5rem;
+}
+
+img.info {
+  width: 32px;
+  height: 24px;
+}
+
+.option {
+  margin-bottom: 0.5em;
+  padding-top: 0.3em ;
+  padding-bottom: 0.3em;
+}
+
+.option:focus, .option:hover {
+  background-color: rgb(211, 227, 240);
+  border-radius: 2px;
+}
+
+.small-font-size {
+  font-size: 14px;
+}
