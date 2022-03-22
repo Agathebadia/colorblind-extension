@@ -11,19 +11,10 @@
     "activeTab",
     "scripting"
   ],
-  "host_permissions": [],
   "action": {
     "default_title": "Colorblindness emulator",
     "default_popup": "popup.html"
   },
-  "content_scripts":[
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": ["background.js"]
-        }
-    ],
   "icons": {
     "16": "public/assets/icon-sm.png",
     "48": "public/assets/icon-md.png",
