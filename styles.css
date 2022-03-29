@@ -3,8 +3,8 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   color: rgb(53, 52, 52);
-  width: 300px;
-  height: 100%;
+  width: 310px;
+  min-height: 600px;
   background-color: white;
 }
 
@@ -21,7 +21,7 @@ form {
 }
 
 .headline {
-  padding: 15px 10px 15px 10px;
+  padding: 15px 10px 1px 10px;
   margin-bottom: 5px;
   font-family: 'Roboto';
   display: flex;
@@ -60,5 +60,5 @@ img.info {
 }
 
 .small-font-size {
-  font-size: 14px;
+  font-size: 12px;
 }
