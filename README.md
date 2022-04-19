@@ -1,7 +1,7 @@
 # colorblind-extension
 Chrome extension to emulate 8 types of colorblindness - Using SVG filter created by [hail2u](https://github.com/hail2u/color-blindness-emulation)
 
-Check out my talk at EmberConf, presenting the extension! [Accessibility & Ember: Learning about Colorblidness](https://noti.st/agathebadia/DTySgu/accessibility-ember-learning-about-colorblindness#s4ekBrC)
+Check out my talk at EmberConf, presenting the extension! [Accessibility & Ember: Learning about Colorblidness](https://noti.st/agathebadia/DTySgu/accessibility-ember-learning-about-colorblindness#sKc0uBX)
 
 ## Protan - Red colors
 * Protanopia - Total red colorblindness
